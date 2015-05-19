@@ -1,0 +1,26 @@
+#nav, #header-nav-wrapper, #header-image-wrapper, #section1-text-wrapper, #section3-wrapper {
+  display: flex;
+}
+
+#nav {
+  flex-direction: column;
+}
+
+#header-nav-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+#header-image-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+#section1-text-wrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+#section3-wrapper {
+  flex-direction: column;
+}
